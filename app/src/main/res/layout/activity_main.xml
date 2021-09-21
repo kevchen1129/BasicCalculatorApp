@@ -12,10 +12,11 @@
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
+        android:background="@color/colorPrimary"
+        android:onClick="divide"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/divide"
-        android:onClick="divide"/>
+        app:srcCompat="@drawable/divide" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -23,32 +24,35 @@
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
+        android:background="@color/colorPrimary"
+        android:onClick="subtract"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextSecondNumber"
-        app:srcCompat="@drawable/minus"
-        android:onClick="subtract"/>
+        app:srcCompat="@drawable/minus" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="141dp"
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:onClick="mutiply"
         app:layout_constraintEnd_toStartOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/mutiply"
-        android:onClick="mutiply"/>
+        app:srcCompat="@drawable/mutiple" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="141dp"
         android:layout_height="60dp"
         android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
+        android:onClick="add"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextSecondNumber"
-        app:srcCompat="@drawable/add"
-        android:onClick="add"/>
+        app:srcCompat="@drawable/addicon" />
 
     <EditText
         android:id="@+id/editTextSecondNumber"
